@@ -55,4 +55,5 @@ This is the hw02 sample. Please follow the steps below.
 
 --------------------
 
-Please take your note here.
+push {r0,r1,r2}的意思為依序將r2,r1,r0的資料放入堆疊中如此一來最底層的資料為r2最上層為r0
+編譯器無法編譯push {r2,r0,r1}原因為大括弧內的的記憶體編號必須為遞增，因此將指令變更為push{r1},push{r0},push{r1}代替，結果變為最底的資料為r1,最頂的資料為r2。
