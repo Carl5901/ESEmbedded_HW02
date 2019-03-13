@@ -11,7 +11,11 @@ _start:
 	mov r2,#100
 
 	push {r0,r1,r2}
+	pop {r3}
+	pop {r4}
+	pop {r5}
 
+	push {r2,r0,r1}
 	pop {r3}
 	pop {r4}
 	pop {r5}
