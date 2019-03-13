@@ -50,9 +50,6 @@ This is the hw02 sample. Please follow the steps below.
 [ESEmbedded_HW02_Example]: https://github.com/vwxyzjimmy/ESEmbedded_HW02_Example
 
 --------------------
-
-- [x] **If you volunteer to give the presentation next week, check this.**
-
 --------------------
 
 push {r0,r1,r2}的意思為依序將r2,r1,r0的資料放入堆疊中如此一來最底層的資料為r2最上層為r0
